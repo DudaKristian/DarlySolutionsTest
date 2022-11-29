@@ -1,11 +1,11 @@
 import React from 'react';
-import { BtnSubmit } from '../../components/btnSubmit/btnSubmit.component';
+import { ContactAddForm } from '../../components/contactAddForm/contactAddForm';
 
 export const Modal: React.FC = () => {
     return (
         <div>
             <p>This is Modal component</p>
-            <BtnSubmit/>
+            <ContactAddForm/>
         </div>
     )
 }
