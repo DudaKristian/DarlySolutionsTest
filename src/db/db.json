@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Franc",
+      "lastName": "Kaffka",
+      "phoneNumber": 380505026785,
+      "email": "kaffka@franc.com",
+      "company": "volosi"
+    },
+    {
+      "id": 2,
+      "name": "KaffkaFranc",
+      "lastName": "Franc",
+      "phoneNumber": 380505226785,
+      "email": "franc@kaffka.com",
+      "company": "tikva"
+    },
+    {
+      "name": "Vova",
+      "lastName": "Pupkin",
+      "phoneNumber": "380504687541",
+      "email": "vova@pupkin.com",
+      "company": "noski",
+      "id": 3
+    }
+  ]
+}
