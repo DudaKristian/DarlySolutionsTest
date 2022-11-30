@@ -10,16 +10,27 @@ export const contactsApi = createApi({
     tagTypes: [TAG_CONTACTS],
     endpoints: (builder) => (
         {
-            getAllContacts: builder.query<IContact, void>({
-            query: () => `contacts`,
+        getAllContacts: builder.query<IContact, void>({
+            query: () => ({
+                url: `contacts`,
+                method: 'GET'
+            }),
             providesTags: [TAG_CONTACTS]
+        }),
+        createContact: builder.mutation<IContact, void>({
+            query: newContact => ({
+                url: `contacts`,
+                method: 'POST',
+                body: newContact,
+            }),
+        invalidatesTags: [TAG_CONTACTS],
         }),
         }
     )
 })
 
 
-export const { useGetAllContactsQuery } = contactsApi;
+export const { useGetAllContactsQuery, useCreateContactMutation } = contactsApi;
 
 
 
