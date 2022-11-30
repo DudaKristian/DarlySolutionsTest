@@ -17,7 +17,7 @@ export const contactsApi = createApi({
             }),
             providesTags: [TAG_CONTACTS]
         }),
-        createContact: builder.mutation<IContact, void>({
+        createContact: builder.mutation({
             query: newContact => ({
                 url: `contacts`,
                 method: 'POST',

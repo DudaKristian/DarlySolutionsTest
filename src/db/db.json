@@ -1,7 +1,7 @@
 {
   "contacts": [
     {
-      "id": 1,
+      "id": "sdawoijhlm",
       "name": "Franc",
       "lastName": "Kaffka",
       "phoneNumber": 380505026785,
@@ -9,7 +9,7 @@
       "company": "volosi"
     },
     {
-      "id": 2,
+      "id": "sadasdasdada",
       "name": "KaffkaFranc",
       "lastName": "Franc",
       "phoneNumber": 380505226785,
@@ -22,7 +22,23 @@
       "phoneNumber": 380504687541,
       "email": "vova@pupkin.com",
       "company": "noski",
-      "id": 3
+      "id": "sadasaw"
+    },
+    {
+      "id": "HVIH14iGz9l7VDM1xzvO8",
+      "name": "sdawadsda",
+      "lastName": "sdasdasad",
+      "email": "duda.kristian.ns@gmail.com",
+      "phoneNumber": "0509551724",
+      "company": "sadwadas"
+    },
+    {
+      "id": "RIBwJLXMMAOBh5YQpcQ9V",
+      "name": "Tanya",
+      "lastName": "Duda",
+      "email": "tanya@mail.com",
+      "phoneNumber": "321354",
+      "company": "Roga"
     }
   ]
 }

@@ -1,9 +1,9 @@
 
 export interface IContact {
-    id: number;
+    id: string,
     name: string;
     lastName: string;
     email: string;
-    phoneNumber: number;
+    phoneNumber: string;
     company: string;
 }

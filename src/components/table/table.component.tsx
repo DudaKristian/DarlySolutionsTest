@@ -9,18 +9,19 @@ export const Table: React.FC = () => {
 
     return (
         <table>
-            <tr>
-                <th>#</th>
+            <thead>
+                <tr>
                 <th>Name</th>
                 <th>Last name</th>
                 <th>Company</th>
                 <th>Email</th>
                 <th>Phone Number</th>
             </tr>
+            </thead>
+            <tbody>
             {data && data.map(
                 contact => (
-                    <tr>
-                        <th>{contact.id}</th>
+                    <tr key={contact.id}>
                         <th>{contact.name}</th>
                         <th>{contact.lastName}</th>
                         <th>{contact.company}</th>
@@ -28,7 +29,8 @@ export const Table: React.FC = () => {
                         <th>{contact.phoneNumber}</th>
                     </tr>    
                 )
-            )}
+                )}
+            </tbody>
         </table>
     )
 }
