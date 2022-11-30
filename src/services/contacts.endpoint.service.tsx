@@ -10,7 +10,7 @@ export const contactsApi = createApi({
     tagTypes: [TAG_CONTACTS],
     endpoints: (builder) => (
         {
-        getAllContacts: builder.query<IContact, void>({
+        getAllContacts: builder.query<IContact[], void>({
             query: () => ({
                 url: `contacts`,
                 method: 'GET'
