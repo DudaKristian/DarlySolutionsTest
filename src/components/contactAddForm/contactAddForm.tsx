@@ -1,5 +1,4 @@
 import React from 'react';
-import { BtnSubmit } from '../btnSubmit/btnSubmit.component';
 import { useState } from "react"
 import { useCreateContactMutation, useGetAllContactsQuery } from '../../services/contacts.endpoint.service';
 import { IContact } from '../../interfaces/contact.interface';
@@ -145,7 +144,13 @@ export const ContactAddForm: React.FC = () => {
                 title="Company name may contain only letters, apostrophe, dash and spaces."
                 />
             </label>
-            <BtnSubmit />
+            
+            <button
+                type='submit'
+                
+            >
+                Add new Contact
+            </button>
             
         </form>
     )
