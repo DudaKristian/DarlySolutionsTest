@@ -19,7 +19,7 @@
     {
       "name": "Vova",
       "lastName": "Pupkin",
-      "phoneNumber": "380504687541",
+      "phoneNumber": 380504687541,
       "email": "vova@pupkin.com",
       "company": "noski",
       "id": 3
