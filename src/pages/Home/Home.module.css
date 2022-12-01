@@ -1,0 +1,38 @@
+.home__background {
+    background-color: #323232;
+
+    width: 100vw;
+    min-height: 100vh;
+
+    position: relative;
+}
+
+.home__girl {
+    position: absolute;
+
+    width: 885px;
+    height: 846px;
+
+    bottom: 0;
+    left: 0;
+
+}
+
+.home__boy {
+    position: absolute;
+
+    width: 774px;
+    height: 865px;
+
+    top: -37px;
+    right: 0;
+}
+
+.home__wrapper {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+
+    
+}
